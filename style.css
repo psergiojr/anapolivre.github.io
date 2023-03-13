@@ -1,0 +1,203 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+
+/* Layout */
+body > header {
+    display: grid;
+    place-items: center;
+    /* grid-template: "anapolivre" "flisol" "evento"; */
+    background-color: var(--flisol-laranja);
+    background-image: linear-gradient(to top right, gold, orangered);
+    color: black;
+    padding-bottom: 2rem;
+}
+@media screen and (min-width: 640px) {
+    /* body > header {
+        grid-template:
+            "anapolivre flisol"
+            "evento evento"
+            / 1fr 1fr;
+    } */
+}
+@media screen and (min-width: 960px) {
+    body > header {
+        /* grid-template:
+            "anapolivre flisol evento"
+            / 1fr 1fr 1fr; */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+#anapolivre {
+    font-size: 1.2rem;
+    /* grid-area: anapolivre; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#anapolivre #logo {
+    display: inline-flex;
+    text-transform: uppercase;
+}
+#anapolivre #logo span {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    /* background-color: brown; */
+}
+#anapolivre #logo img { width: 4em; }
+#anapolivre #logo b { font-size: 2em; }
+
+/* #logo-flisol { grid-area: flisol; } */
+#logo-flisol img {
+    width: 100%;
+    max-width: 400px;
+    filter: drop-shadow(0px 5px #5005);
+}
+
+.evento {
+    margin-top: -2rem;
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 960px) {
+    .evento {
+        grid-template-columns: 400px 400px;
+        column-gap: 4rem;
+    }
+}
+.evento > div {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    column-gap: 1rem;
+    display: flex;
+    place-items: center;
+}
+
+.chamada {
+    padding: 1rem;
+    color: black;
+    display: grid;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 1.25em;
+}
+@media screen and (min-width: 960px) {
+    .chamada { grid-template-columns: 1fr 1fr 1fr; }
+}
+.chamada a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1em;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border-radius: .5em;
+    box-shadow: 0px 4px 0 var(--inner-shadow);
+    text-align: center;
+    position: relative;
+}
+.chamada a::after {
+    content: '';
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    right: 1em;
+    /* background-color: var(--text-color); */
+    /* border: .1em solid var(--text-color); */
+    box-shadow: inset -0.2em -0.2em var(--text-color);
+    transform: rotate(-45deg);
+}
+.inscricoes {
+    --accent-color: #caf;
+    --inner-shadow: #b8f;
+    --text-color: #40a;
+}
+.palestrante {
+    --accent-color: #5fd;
+    --inner-shadow: #0da;
+    --text-color: #054;
+}
+.voluntario {
+    --accent-color: #fd5;
+    --inner-shadow: #fb0;
+    --text-color: #850;
+}
+
+section {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+section header h1 {
+    font-size: 2em;
+    line-height: 1.5;
+    text-decoration: wavy underline var(--flisol-verde);
+}
+
+footer {
+    background-color: #91ccff;
+    color: black;
+    padding: 1rem;
+}
+footer > div {
+    max-width: 1200px;
+    margin: auto;
+}
+footer .copyleft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+footer .copyleft img {
+    max-height: 32px;
+}
+.copyleft > div {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    row-gap: .5em;
+}
+
+
+/* Paletas de cores */
+
+:root {
+    --accent-color: var(--flisol-laranja);
+    --flisol-laranja: #FF8E2A;
+    --flisol-azul: #0055D4;
+    --flisol-verde: #CCFF00;
+}
+
+.light {
+    --background-color: white;
+    --text-color: #111;
+}
+
+.dark {
+    --background-color: #222;
+    --text-color: white;
+}

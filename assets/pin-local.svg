@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="pin-local.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="16.771689"
+     inkscape:cx="13.743398"
+     inkscape:cy="17.082358"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path111"
+       style="fill:#d40000;stroke-width:0.529167;stroke-linejoin:round"
+       d="m 7.3669097,3.1971133 c 0,1.7306266 -1.4393752,4.2914056 -3.1335766,5.2695533 C 2.5313604,7.4840322 1.0997565,4.9277399 1.0997565,3.1971133 c 0,-1.7306266 1.40295,-3.13357666 3.1335766,-3.13357666 1.7306266,0 3.1335766,1.40295006 3.1335766,3.13357666 z"
+       sodipodi:nodetypes="scsss" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.529167;stroke-linejoin:round"
+       id="circle221"
+       cx="4.2333331"
+       cy="3.1971133"
+       r="1.4303691" />
+    <path
+       id="path12425"
+       style="fill:#ff5555;stroke-width:0.529167;stroke-linejoin:round"
+       d="M 4.2333333 0.063562011 C 2.5027084 0.063562011 1.0996745 1.466596 1.0996745 3.1972208 C 1.0996745 3.2846061 1.103376 3.3741349 1.1105265 3.4654215 C 1.2430792 1.856835 2.5905441 0.59272867 4.2333333 0.59272867 C 5.8761224 0.59272867 7.2235873 1.856835 7.35614 3.4654215 C 7.3633272 3.3741138 7.3669921 3.2846061 7.3669921 3.1972208 C 7.3669921 1.466596 5.9639581 0.063562011 4.2333333 0.063562011 z " />
+    <path
+       id="circle12437"
+       style="fill:#ff5555;stroke-width:0.529167;stroke-linejoin:round"
+       d="M 5.6384154 3.4597371 A 1.4303691 1.4303691 0 0 1 4.2333333 4.6276244 A 1.4303691 1.4303691 0 0 1 2.8287679 3.4618042 A 1.4303691 1.4303691 0 0 0 2.8029296 3.7263875 A 1.4303691 1.4303691 0 0 0 4.2333333 5.1567911 A 1.4303691 1.4303691 0 0 0 5.6637369 3.7263875 A 1.4303691 1.4303691 0 0 0 5.6384154 3.4597371 z " />
+  </g>
+</svg>
