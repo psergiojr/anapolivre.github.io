@@ -20,11 +20,17 @@ A comunidade Anapolivre nasce ao final do Dia Debian 2009 para apoiar a liberdad
 
 
 ## 2010 - Primeiro FLISoL de Anápolis
-- Descricao do evento:
+
+Em parceria com a Diretoria de Cultura (SEMECT), o primeiro Festival Latino-Americano de Instalação de Software Livre na cidade de Anápolis foi realizado em 24 de abril de 2010, no Ponto de Cultura, situado na ocasião na Praça Bom Jesus no centro da cidade.
+
+Além do Install Fest, onde foram instalados vários softwares livres para os participantes, o evento também teve palestras, um Hacklab e sessão de Batismo Digital.
+
 - Público alvo:
-- Local: 
+- Local: Ponto de Cultura, Praça Bom Jesus, Centro
 - Quantas pessoas participaram:
 - Referências:
+    - Página FLISoL Anápolis 2010: https://flisol.info/FLISOL2010/Brasil/Anapolis
+    - Programação FLISoL Anápolis 2010: https://web.archive.org/web/20101129095048/http://flisolgo.org.br/ana/index.php?option=com_content&view=article&id=57&Itemid=7
 - Material produzido:
 
 
