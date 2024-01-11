@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+/* Cores */
+
+:root,
+.claro {
+    --background: #eee;
+    --texto: #333;
+}
+
+.escuro {
+    --background: #333;
+    --texto: #eee;
+}
+
+/* Base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--texto);
+    background-color: var(--background);
+
+    /* Layout */
+    display: grid;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+
+    /* Visual */
+    font-size: 20px;
+}
+
+body > section,
+body > footer {
+    padding: 32px 0;
+    /* margin-top: -32px; */
+    mask-image:
+        url("assets/pattern_cog.svg"),
+        linear-gradient(transparent 32px, black 32px);
+    mask-position: top;
+
+    background-image:
+        linear-gradient(to bottom, var(--fundo) -64px, transparent 128px)
+        /* radial-gradient(at top center, var(--fundo), transparent); */
+}
+@media screen and (min-width: 1000px) {
+    body {
+        display: grid;
+        grid-template:
+        "header      header"
+        "destaque    eventos"
+        "sobre       sobre"
+        "participe   participe"
+        "footer      footer"
+        / 1fr        1fr;
+    }
+    header      { grid-area: header; }
+    #destaque   { grid-area: destaque; }
+    #eventos    { grid-area: eventos; }
+    #sobre      { grid-area: sobre; }
+    #participe  { grid-area: participe; }
+    footer      { grid-area: footer; }
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+}
+
+body > footer {
+    /* background-color: #566069; */
+    /* background-image: radial-gradient(at top center, #566069, transparent); */
+    --fundo: #3d7bb1;
+    /* color: white; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    /* opacity: 90%; */
+    text-shadow: var(--fundo) 0px 3px 0;
+    text-decoration: var(--fundo) underline solid;
+}
+section h1 {
+    margin-bottom: 1em;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    hyphens: auto;
+}
+
+b, strong {
+    text-shadow: var(--fundo) 0px 2px 4px;
+}
+
+/* Especificos */
+
