@@ -100,4 +100,5 @@ b, strong {
 }
 
 /* Especificos */
-
+header .marca { max-height: 64px; }
+footer .marca { max-height: 128px; }
